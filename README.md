@@ -25,7 +25,21 @@ Key features include:
 - Simulation of closed-loop dynamics with [scipy.integrate.solve_ivp](https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html)
 - Visualization of system trajectories
 
-### 📦 Files
+## 🧠 Methodology
+### 1. Energy Balancing
+
+Energy balancing is a control strategy where the controller is designed to modify the system's total energy (Hamiltonian) so that the closed-loop system has a desired energy function. By shaping the potential and kinetic energy of the system, the controller ensures that the system's equilibrium corresponds to the minimum of the desired energy. This method is particularly effective for stabilizing nonlinear mechanical systems, as it directly exploits the physical properties of the system.
+
+### 2. Interconnection and Damping Assignment (IDA-PBC)
+
+Interconnection and Damping Assignment Passivity-Based Control (IDA-PBC) is an advanced technique that not only shapes the energy of the system but also assigns a desired interconnection and damping structure. By modifying both the energy and the dissipation properties, IDA-PBC allows for more flexible and robust control designs. The technique involves solving partial differential equations to find the appropriate control laws that achieve the desired closed-loop behavior, ensuring both stability and performance.
+
+> 📄 **Citation**  
+> R. Ortega; A.J. Van Der Schaft; I. Mareels; B. Maschke (2002).  
+> *Putting energy back in control*.  
+> [IEEE Control Systems Magazine 21(2)](http://dx.doi.org/10.1109/37.915398)  
+
+## 📦 Files
 
 - `ES_PBC_manipulator.py`  
   Script for simulating a two-link manipulator with EB-PBC control. Includes system modeling, controller design, and plotting of results.
