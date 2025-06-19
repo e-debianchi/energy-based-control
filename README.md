@@ -1,6 +1,6 @@
 # Energy-Based Control of Mechanical Systems
 
-This repository contains Python scripts developed for a university project focused on the control of mechanical systems using an **energy-based approach**, in particular the two different approaches are called **Energy-Balancing Passivity-Based Control (EB-PBC)** and **Interconnection and Damping Assignment Passivity-Based Control (IDA-PBC)**. The main application is the simulation and control of robotic manipulators, with an emphasis on passivity-based and energy-shaping control strategies.
+This repository contains Python scripts developed for a university project focused on the control of mechanical systems using **energy-based approaches**, in particular the two different strategies are called **Energy-Balancing Passivity-Based Control (EB-PBC)** and **Interconnection and Damping Assignment Passivity-Based Control (IDA-PBC)**. The main application is the simulation and control of robotic manipulators, with an emphasis on passivity-based and energy-shaping control strategies.
 
 ## 🏫 Course Information
 
